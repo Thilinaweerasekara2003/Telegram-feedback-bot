@@ -19,8 +19,8 @@ from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 startbtn = InlineKeyboardMarkup(
                [
                 [
-                    InlineKeyboardButton(text='❤️\u200d🔥About❤️\u200d🔥', url='https://t.me/ItsMeSithija'),
-                    InlineKeyboardButton(text='⭕️Subscribe⭕️', url='https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA')
+                    InlineKeyboardButton(text='❤️\u200d🔥About❤️\u200d🔥', url='https://t.me/DarkRider2003'),
+                    InlineKeyboardButton(text='Join With Us 🥺❤️☘️ ', url='https://t.me/NewSongStatusVideos')
                 ],
                 [
                    InlineKeyboardButton(text='◈━━━━━━━━━━━━━━◈', callback_data='stats_callback'),
@@ -36,18 +36,18 @@ async def startmsg(_, message):
     file_id = "CAACAgUAAxkBAAEHOftixoGGDzNeqi8NH8Wh7nCPhIXI9AAC-gYAAoN9OVbzSN5aFCy5KR4E"
     await bot.send_sticker(message.from_user.id, file_id)
     await message.reply_text(
-    text=f"**✨Hello {message.from_user.mention}🙋\n🌺I am The Assistant Bot Of [Sเƚԋเʝα▁ƚd](https://t.me/ItsMeSithija)**.\n\n__💬You Can Contract Him Using This Bot.\n📨Send Your Messages Normally And I Will Forward Them To Him.__", 
+    text=f"**✨Hello {message.from_user.mention}🙋\n🌺I am The Assistant Bot Of [✿⃪ ᴍʀ⃪ | ᴅᴀʀᴋ ʀɪᴅ̵ᴇʀ |⃪ 🌼-](https://t.me/DarkRider2003)**.\n\n__💬You Can Contract Him Using This Bot.\n📨Send Your Messages Normally And I Will Forward Them To Him.__", 
     reply_markup=startbtn,
     disable_web_page_preview=True,
     quote=True) 
 
 @bot.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def startgmsg(_, message):
-    await message.reply_photo(photo="https://telegra.ph/file/bb94f189ba5700f535377.jpg", 
-    caption=f"Hey {message.from_user.mention}☄️. \n\nI am the Assistant bot of Sithija.",
+    await message.reply_photo(photo="https://telegra.ph/file/d7044e8567d9d373ab97b.jpg", 
+    caption=f"Hey {message.from_user.mention}☄️. \n\nI am the Assistant bot of DarkRider.",
     reply_markup = InlineKeyboardMarkup(
                  [
-                  [ InlineKeyboardButton(text='Visit PM', url='https://t.me/IMSithijabot') ],
+                  [ InlineKeyboardButton(text='Visit PM', url='https://t.me/DarkRider2003') ],
                   [ InlineKeyboardButton(text='◈━━━━━━◈', callback_data='stats_callback') ]
                  ]
 ))
@@ -67,7 +67,7 @@ async def stats_callbacc(_, CallbackQuery):
 
 @bot.on_message(filters.private & filters.command("help"))
 async def helpmsg(_, message):
-    await message.reply_photo(photo="https://telegra.ph/file/bb94f189ba5700f535377.jpg", 
+    await message.reply_photo(photo="https://telegra.ph/file/d7044e8567d9d373ab97b.jpg", 
     caption=f"""" Hey {message.from_user.mention}☄️
 I have some fun and useful tools
 So you can get a help about them🚀 """,
@@ -143,7 +143,7 @@ Invite all designing loves to join with us.☘️</b>
   <b>⚡️Hyper Designs🤟</b>
 〢────────────〣"""
 
-BOTIMG='https://telegra.ph/file/60d0d641d96d9cdccf8a9.jpg'
+BOTIMG='https://telegra.ph/file/d7044e8567d9d373ab97b.jpg'
 BOTBTNS = InlineKeyboardMarkup(
                                [
                                 [InlineKeyboardButton(text='Visit Bot', url='https://t.me/imsithijabot')],
@@ -180,8 +180,8 @@ async def answer(_, inline_query):
             InlineQueryResultPhoto(
                 title=f"Hყρҽɾ Ɗҽʂιɠɳʂ |🇱🇰",
                 description="Click Here To Share",
-                photo_url="https://telegra.ph/file/60d0d641d96d9cdccf8a9.jpg",
-                thumb_url="https://telegra.ph/file/60d0d641d96d9cdccf8a9.jpg",
+                photo_url="https://telegra.ph/file/d7044e8567d9d373ab97b.jpg",
+                thumb_url="https://telegra.ph/file/d7044e8567d9d373ab97b.jpg",
                 caption=HYPERTXT,
                 reply_markup=HYPERBTNS,
                 ),
