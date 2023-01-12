@@ -131,32 +131,32 @@ async def _broadcast(_, bot: Message):
 #========================inline post=============================
 #------------------------variables-------------------------------
 HYPERTXT = """<b>Hey, friends🙋‍♂</b>
-<b>☘️We are Hyper Design.
-Invite all designing loves to join with us.☘️</b>
-✨<i>Learn Designing</i>
-✨<i>Free Logos</i>
-✨<i>PLP Files</i>
-✨<i>Giveaways</i>
-    Be Creative Be We
+<b>☘️We are Galaxy Partners.
+Invite all MMembers to join with us.☘️</b>
+✨<i>Create Meme</i>
+✨<i>Download Status Video</i>
+✨<i>නිසදැස්</i>
+
+   Be Creative Be We
 〣────────────〢
          Creative We
-  <b>⚡️Hyper Designs🤟</b>
+  <b>⚡️Galaxy Patners🤟</b>
 〢────────────〣"""
 
 BOTIMG='https://telegra.ph/file/d7044e8567d9d373ab97b.jpg'
 BOTBTNS = InlineKeyboardMarkup(
                                [
-                                [InlineKeyboardButton(text='Visit Bot', url='https://t.me/imsithijabot')],
+                                [InlineKeyboardButton(text='Visit Bot', url='https://t.me/DarkRiderAssistantBot)],
                                 [InlineKeyboardButton(text='Open MEnu', callback_data='startmenu')]
                                ]
                                )
 HYPERBTNS = InlineKeyboardMarkup(
               [
                 [
-                  InlineKeyboardButton('⚡️Hyper Designs🤟' , url='https://t.me/HyperDesigns')
+                  InlineKeyboardButton('⚡Join Chat Group ' , url='https://t.me/GalaxyLanka')
                 ],
                 [
-                  InlineKeyboardButton('👥 Group 👥' , url='https://t.me/HyperDesignsChat'),
+                  InlineKeyboardButton('👥 Group 👥' , url='https://t.me/Slfacebook'),
                 ], 
                 [
                   InlineKeyboardButton('🔰Share post🔰' , switch_inline_query=""),
@@ -178,7 +178,7 @@ async def answer(_, inline_query):
         await inline_query.answer(
             results=[
             InlineQueryResultPhoto(
-                title=f"Hყρҽɾ Ɗҽʂιɠɳʂ |🇱🇰",
+                titl|🇱🇰",
                 description="Click Here To Share",
                 photo_url="https://telegra.ph/file/d7044e8567d9d373ab97b.jpg",
                 thumb_url="https://telegra.ph/file/d7044e8567d9d373ab97b.jpg",
@@ -193,5 +193,5 @@ async def answer(_, inline_query):
 
 
 bot.start()
-LOGGER.info("Sithija's assistant is online")
+LOGGER.info("Dark Rider's assistant is online")
 idle()
